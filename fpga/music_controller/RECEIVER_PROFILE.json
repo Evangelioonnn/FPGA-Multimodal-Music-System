@@ -1,0 +1,8 @@
+{
+  "protocol": "GS2 v2",
+  "baud": 115200,
+  "format": "8N1",
+  "source": "rtl/gs2_receiver.v",
+  "SHA256": "dd0191583b0bc09e29ee209f54c9fc6a85b9d4669406f2db1d8ded87aeed00ff",
+  "GE3_position_audio": false
+}

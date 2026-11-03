@@ -1,0 +1,4 @@
+# Cached RGB32 training: additional dependencies beyond requirements_export.txt
+torch==2.8.0
+# Historical CPU build: 2.8.0+cpu, recorded in SOURCE_ENVIRONMENT.json
+# Original module imports also use the packages in requirements_reference.txt.

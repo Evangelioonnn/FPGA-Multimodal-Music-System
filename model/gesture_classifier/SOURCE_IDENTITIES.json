@@ -1,0 +1,164 @@
+{
+  "supplement_commit": "f8d2b28a4e8da03475b04b835ae3da30bc141339",
+  "source_files": {
+    "weights/float.pt": {
+      "supplement_source": "checkpoints/two_stage_paired_20261022_rgb32_hard/float_last.pt",
+      "SHA256": "b2101fb24639cf9e766edf5d8dbe90a7b8f0818c7fcea3770e76228e67b558ca",
+      "original_SHA256": "b2101fb24639cf9e766edf5d8dbe90a7b8f0818c7fcea3770e76228e67b558ca"
+    },
+    "weights/qat.pt": {
+      "supplement_source": "checkpoints/two_stage_paired_20261022_rgb32_hard/qat_last.pt",
+      "SHA256": "0dfad41cef25f5eb141043f54bc4a0b745381160c84f738a1a803c126006af99",
+      "original_SHA256": "0dfad41cef25f5eb141043f54bc4a0b745381160c84f738a1a803c126006af99"
+    },
+    "weights/quantized.npz": {
+      "supplement_source": "checkpoints/two_stage_paired_20261022_rgb32_hard/quantized.npz",
+      "SHA256": "35eda6518326fd38de624488fdb8964f69242058760950231c6dae70bbefc790",
+      "original_SHA256": "35eda6518326fd38de624488fdb8964f69242058760950231c6dae70bbefc790"
+    },
+    "source/rom_export/export_model.py": {
+      "supplement_source": "primer20k_auto_pipeline_20261024/complete_test_20261025/standalone/export_model.py",
+      "SHA256": "aaa575125c96b5a06e1f466524a99d2897c926da49facab8f989d2746cc1568e",
+      "original_SHA256": "aaa575125c96b5a06e1f466524a99d2897c926da49facab8f989d2746cc1568e"
+    },
+    "source/rom_export/reference.py": {
+      "supplement_source": "primer20k_auto_pipeline_20261024/complete_test_20261025/standalone/reference.py",
+      "SHA256": "57e68d8931bfef5c450dc310e6a19fb1db0a0c655a9eb022f20c98c257ec1111",
+      "original_SHA256": "57e68d8931bfef5c450dc310e6a19fb1db0a0c655a9eb022f20c98c257ec1111"
+    },
+    "source/training/paired_student.py": {
+      "supplement_source": "two_stage_transfer/paired_student.py",
+      "SHA256": "aad4c0a7f922381e45a4711fb99800901630aba028dbbd6456ddb42a64d22300",
+      "original_SHA256": "aad4c0a7f922381e45a4711fb99800901630aba028dbbd6456ddb42a64d22300"
+    },
+    "source/training/stage_common.py": {
+      "supplement_source": "two_stage_transfer/stage_common.py",
+      "SHA256": "8fc9d84e01dcb305a42a9f942c2b5cff4b360d18ceb89a220cf1e3763be78128",
+      "original_SHA256": "8fc9d84e01dcb305a42a9f942c2b5cff4b360d18ceb89a220cf1e3763be78128"
+    },
+    "source/training/student.py": {
+      "supplement_source": "two_stage_transfer/student.py",
+      "SHA256": "4a52c083ee53e19fa7bf46fb3eaf9dab17cd51878d9206ddb1b969bac279452e",
+      "original_SHA256": "4a52c083ee53e19fa7bf46fb3eaf9dab17cd51878d9206ddb1b969bac279452e"
+    },
+    "source/tools/dataset.py": {
+      "supplement_source": "tools/dataset.py",
+      "SHA256": "4bf9bd3fde2b7bd01d5c185295841f44f579514aacf8518dfaf7747a03b7cdba",
+      "original_SHA256": "4bf9bd3fde2b7bd01d5c185295841f44f579514aacf8518dfaf7747a03b7cdba"
+    },
+    "source/tools/domain_adaptation.py": {
+      "supplement_source": "tools/domain_adaptation.py",
+      "SHA256": "761283ad6bc2365b305c8c1d23fc327e5e989dfc3d57d219e80495ef04549743",
+      "original_SHA256": "761283ad6bc2365b305c8c1d23fc327e5e989dfc3d57d219e80495ef04549743"
+    },
+    "source/tools/gesture_context_adaptation.py": {
+      "supplement_source": "tools/gesture_context_adaptation.py",
+      "SHA256": "7884686f12215a36197d84d2d410733c727439c5739f18bcf863d8009e02f038",
+      "original_SHA256": "7884686f12215a36197d84d2d410733c727439c5739f18bcf863d8009e02f038"
+    },
+    "source/tools/gesture_detector_adaptation.py": {
+      "supplement_source": "tools/gesture_detector_adaptation.py",
+      "SHA256": "cd1dd8e39e248ed2f3c6701fa3eee3fc44bf6ed9af00a72f85d6844c08e3c1ff",
+      "original_SHA256": "cd1dd8e39e248ed2f3c6701fa3eee3fc44bf6ed9af00a72f85d6844c08e3c1ff"
+    },
+    "source/tools/gesture_feature_adaptation.py": {
+      "supplement_source": "tools/gesture_feature_adaptation.py",
+      "SHA256": "85b70859c171d669e1183ae897f0283630d9a60732df45a924ee43f8473cd111",
+      "original_SHA256": "85b70859c171d669e1183ae897f0283630d9a60732df45a924ee43f8473cd111"
+    },
+    "source/tools/gesture_flip_consistency.py": {
+      "supplement_source": "tools/gesture_flip_consistency.py",
+      "SHA256": "ff063b82c4c65589ebfe2a6377978553f553ffcde53db9e38569aee3c3af511f",
+      "original_SHA256": "ff063b82c4c65589ebfe2a6377978553f553ffcde53db9e38569aee3c3af511f"
+    },
+    "source/tools/gesture_localizer_backbone.py": {
+      "supplement_source": "tools/gesture_localizer_backbone.py",
+      "SHA256": "b4aeeb0d2fb38000eb04a0f16b514b872f1998f973fde3ab19a87efc028345ba",
+      "original_SHA256": "b4aeeb0d2fb38000eb04a0f16b514b872f1998f973fde3ab19a87efc028345ba"
+    },
+    "source/tools/gesture_roi_refinement.py": {
+      "supplement_source": "tools/gesture_roi_refinement.py",
+      "SHA256": "edc7e048a26632cae55ac33f21d14a66947b18cbd18ee9470e6580eec9f19a52",
+      "original_SHA256": "edc7e048a26632cae55ac33f21d14a66947b18cbd18ee9470e6580eec9f19a52"
+    },
+    "source/tools/gesture_session_detector.py": {
+      "supplement_source": "tools/gesture_session_detector.py",
+      "SHA256": "55aa36219d23547227033de5c704f042a33e9fa2a038614e7679d6a222d9f0c7",
+      "original_SHA256": "55aa36219d23547227033de5c704f042a33e9fa2a038614e7679d6a222d9f0c7"
+    },
+    "source/tools/gesture_spatial_quality.py": {
+      "supplement_source": "tools/gesture_spatial_quality.py",
+      "SHA256": "1db255cb29a0653b1e8ad76d79242e6c32d2fdc595213395277f66ac7ef259b1",
+      "original_SHA256": "1db255cb29a0653b1e8ad76d79242e6c32d2fdc595213395277f66ac7ef259b1"
+    },
+    "source/tools/pretrained_reference.py": {
+      "supplement_source": "tools/pretrained_reference.py",
+      "SHA256": "80c524066d851088e4cda031ad997bd241f7e0f05a9f7632c3818260dd5c4463",
+      "original_SHA256": "80c524066d851088e4cda031ad997bd241f7e0f05a9f7632c3818260dd5c4463"
+    },
+    "source/tools/pretrained_transfer.py": {
+      "supplement_source": "tools/pretrained_transfer.py",
+      "SHA256": "277790bf037a972548d515425efc07a781236a1791b9b4271badebb455aa2c17",
+      "original_SHA256": "277790bf037a972548d515425efc07a781236a1791b9b4271badebb455aa2c17"
+    },
+    "source/tools/provenance.py": {
+      "supplement_source": "tools/provenance.py",
+      "SHA256": "40a69eb442606b73b413139e1d4143e742ed63a9f73f08bbc928f9ddb3283c87",
+      "original_SHA256": "40a69eb442606b73b413139e1d4143e742ed63a9f73f08bbc928f9ddb3283c87"
+    },
+    "source/tools/reference.py": {
+      "supplement_source": "tools/reference.py",
+      "SHA256": "a9e9ee1606c6b4a0e152239eb6c950a5820c757b00741a56dc1857d2802125c1",
+      "original_SHA256": "a9e9ee1606c6b4a0e152239eb6c950a5820c757b00741a56dc1857d2802125c1"
+    },
+    "source/tools/roi_classifier.py": {
+      "supplement_source": "tools/roi_classifier.py",
+      "SHA256": "6721d4022ca90c2d20f0db34875a89a13df6615a9e7761f0741a12342b2f69d7",
+      "original_SHA256": "6721d4022ca90c2d20f0db34875a89a13df6615a9e7761f0741a12342b2f69d7"
+    },
+    "training_cache/RGB_DATA.json": {
+      "supplement_source": "work/two_stage_transfer_20261022/RGB_DATA.json",
+      "SHA256": "adb95efcbe3b72bbf04005788d639b94a4c2c09b1a7ce1c94447b8bd4c5b1ffa",
+      "original_SHA256": "adb95efcbe3b72bbf04005788d639b94a4c2c09b1a7ce1c94447b8bd4c5b1ffa"
+    },
+    "training_cache/RGB_DATA.npz": {
+      "supplement_source": "work/two_stage_transfer_20261022/RGB_DATA.npz",
+      "SHA256": "17becacbf3f9be38094cf33adc29d32e1c69b37c62528ea512ebcfe8cc2e097f",
+      "original_SHA256": "17becacbf3f9be38094cf33adc29d32e1c69b37c62528ea512ebcfe8cc2e097f"
+    },
+    "training_cache/RGB_PLAN.json": {
+      "supplement_source": "work/two_stage_transfer_20261022/RGB_PLAN.json",
+      "SHA256": "d69bdf5f432e292ff7ec1228718d9069ead14063b7c127f47f5493a4bc36c84f",
+      "original_SHA256": "d69bdf5f432e292ff7ec1228718d9069ead14063b7c127f47f5493a4bc36c84f"
+    },
+    "training_cache/RGB_TRAIN_ROWS.json": {
+      "supplement_source": "work/two_stage_transfer_20261022/RGB_TRAIN_ROWS.json",
+      "SHA256": "19589ad0c8cbcbf7b8a05e3e6686625b7dc01b425d919fecaf8aff0b30e6b26f",
+      "original_SHA256": "19589ad0c8cbcbf7b8a05e3e6686625b7dc01b425d919fecaf8aff0b30e6b26f"
+    },
+    "training_cache/ROWS.json": {
+      "supplement_source": "work/two_stage_transfer_20261022/ROWS.json",
+      "SHA256": "e5ce522594f5cda9cd9409616cf156a1b2a69e2e67e6dad13d86972d7290022d",
+      "original_SHA256": "e5ce522594f5cda9cd9409616cf156a1b2a69e2e67e6dad13d86972d7290022d"
+    },
+    "requirements_export.txt": {
+      "supplement_source": "requirements_offline.txt",
+      "SHA256": "dee66a6fd7af314ef9bffcc1170d09684e468588fbe5d8668c6379b0b9e65839",
+      "original_SHA256": "dee66a6fd7af314ef9bffcc1170d09684e468588fbe5d8668c6379b0b9e65839"
+    },
+    "requirements_training.txt": {
+      "supplement_source": "requirements_training.txt",
+      "SHA256": "16088bf090c44f9f59286147faaf2ee98b795cea92b3b8f64bf73b11ebe523fc",
+      "original_SHA256": "b8d9f3b30a5ba35146d00956a3d4a822165fca756258568944f0efdc1a915b69"
+    },
+    "requirements_reference.txt": {
+      "supplement_source": "requirements_reference.txt",
+      "SHA256": "e2cda9bd70ceaad424a9864a4a87733732265641f67b4dadb003fa371278aa31",
+      "original_SHA256": "e2cda9bd70ceaad424a9864a4a87733732265641f67b4dadb003fa371278aa31"
+    }
+  },
+  "all_original_numerical_and_training_code_preserved": true,
+  "export_execution_layout_recreated_by": "export_rom.py",
+  "training_execution_layout_recreated_by": "train.py",
+  "raw_image_teacher_pipeline_included": false
+}

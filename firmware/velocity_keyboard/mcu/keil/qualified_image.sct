@@ -1,0 +1,7 @@
+; Preserve every qualified firmware byte at its existing Flash address.
+LR_QUALIFIED 0x08000000 0x10000 {
+ ER_QUALIFIED 0x08000000 FIXED 0x10000 {
+  image_container.o (.qualified_image, +FIRST)
+  .ANY (+RO)
+ }
+}

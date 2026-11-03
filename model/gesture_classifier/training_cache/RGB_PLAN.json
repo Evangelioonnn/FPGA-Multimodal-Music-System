@@ -1,0 +1,69 @@
+{
+  "reason": "gray teacher adaptation did not qualify; use validated original RGB teacher, retain tinyRGB crop for inference independently of gray preview",
+  "teacher_sha256": "9152053d7bd03baf793167ba5b176286011333c22409bbef4bb935b8074c996c",
+  "teacher_validation": {
+    "total": {
+      "positive": 175,
+      "negative": 94,
+      "class_correct": 160,
+      "joint_correct": 160,
+      "false_accepts": 5,
+      "localized": 172
+    },
+    "domains": {
+      "public": {
+        "positive": 104,
+        "negative": 54,
+        "class_correct": 100,
+        "joint_correct": 100,
+        "false_accepts": 2,
+        "localized": 103
+      },
+      "phone": {
+        "positive": 63,
+        "negative": 36,
+        "class_correct": 52,
+        "joint_correct": 52,
+        "false_accepts": 3,
+        "localized": 61
+      },
+      "camera": {
+        "positive": 8,
+        "negative": 4,
+        "class_correct": 8,
+        "joint_correct": 8,
+        "false_accepts": 0,
+        "localized": 8
+      }
+    }
+  },
+  "preview": "unchanged gray display in this offline experiment;no firmware change",
+  "teacher": "native crop resizedRGB128 with linear interpolation;strong RGB model retained",
+  "arms": [
+    "rgb32_hard",
+    "rgb32_kd",
+    "gray64_crossmodal_kd"
+  ],
+  "student_steps": [
+    6000,
+    2000
+  ],
+  "seed": 20261025,
+  "student": "ConvCto8,Conv8to8,pool4,spatial512to4;RGB32s1 or GRAY64s2;posture/accept separately supervised",
+  "distillation": "only teacher correct-and-margin>=.5 TRAIN examples;hard human labels always used",
+  "selection": "fixed endpoints;historicalVAL safety gate,not live3/eval02;both grayscale teacher failures retained",
+  "output_gate": "same .5 logit gap for posture and acceptance;no threshold sweep",
+  "student_qualification": "joint>=144/175,false accepts<=7/94,camera8/8 and0/4;offline pilot only",
+  "old263_not_independent": true,
+  "eval02_opened": false,
+  "live3_used": false,
+  "new_board_firmware": false,
+  "source_sha256": {
+    "adapt_teacher.py": "8311bcdf4e9fcd9efa3fe4fd16c30ac7ea355beb82adbee9b055a459341531ab",
+    "paired_data.py": "62e04f1f23fdb81b73330f16938155cba980e173b777f06e0d56db41095f161f",
+    "paired_student.py": "aad4c0a7f922381e45a4711fb99800901630aba028dbbd6456ddb42a64d22300",
+    "prepare.py": "e446ca406d829480fdfe671fba77c3f631200943337b6d3a0ba44e25bf2639f8",
+    "stage_common.py": "8fc9d84e01dcb305a42a9f942c2b5cff4b360d18ceb89a220cf1e3763be78128",
+    "student.py": "4a52c083ee53e19fa7bf46fb3eaf9dab17cd51878d9206ddb1b969bac279452e"
+  }
+}

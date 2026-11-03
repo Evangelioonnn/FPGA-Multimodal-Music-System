@@ -1,0 +1,16 @@
+**/impl/
+**/build/
+**/__pycache__/
+*.pyc
+*.uvguix.*
+*.uvoptx
+*.gprj.user
+*.keystore
+*.jks
+*.lic
+*.rar
+*.apk
+*.fs
+*.elf
+*.bin
+/bin/**/*.hex

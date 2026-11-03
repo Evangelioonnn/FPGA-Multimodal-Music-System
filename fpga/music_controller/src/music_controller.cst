@@ -1,0 +1,138 @@
+// Proposed independent wiring, verify J13 orientation before SRAM download.
+// NEO Dock J31 TF SPI, traced via J2/C2400. BL616 must release shared bus.
+IO_LOC "sys_clk" V22;
+IO_PORT "sys_clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "reset_n" AA13;
+IO_PORT "reset_n" IO_TYPE=LVCMOS15 PULL_MODE=UP BANK_VCCIO=1.5;
+IO_LOC "row_n[0]" E14;
+IO_PORT "row_n[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "row_n[1]" E13;
+IO_PORT "row_n[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "row_n[2]" C15;
+IO_PORT "row_n[2]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "row_n[3]" C14;
+IO_PORT "row_n[3]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "row_n[4]" B13;
+IO_PORT "row_n[4]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "row_n[5]" C13;
+IO_PORT "row_n[5]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "col_n[0]" A14;
+IO_PORT "col_n[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "col_n[1]" A13;
+IO_PORT "col_n[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "col_n[2]" B16;
+IO_PORT "col_n[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "col_n[3]" B15;
+IO_PORT "col_n[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "col_n[4]" A15;
+IO_PORT "col_n[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "col_n[5]" A20;
+IO_PORT "col_n[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "enc_a[0]" B20;
+IO_PORT "enc_a[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "enc_b[0]" A21;
+IO_PORT "enc_b[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "enc_button_n[0]" B21;
+IO_PORT "enc_button_n[0]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "enc_a[1]" B18;
+IO_PORT "enc_a[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "enc_b[1]" B17;
+IO_PORT "enc_b[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "enc_button_n[1]" C17;
+IO_PORT "enc_button_n[1]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "enc_a[2]" D17;
+IO_PORT "enc_a[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "enc_b[2]" A19;
+IO_PORT "enc_b[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "enc_button_n[2]" A18;
+IO_PORT "enc_button_n[2]" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "adc_sclk" D15;
+IO_PORT "adc_sclk" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "adc_miso" D14;
+IO_PORT "adc_miso" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "adc_mosi" D16;
+IO_PORT "adc_mosi" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "adc_cs_n" E16;
+IO_PORT "adc_cs_n" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "status_led[0]" E17;
+IO_PORT "status_led[0]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "status_led[1]" F16;
+IO_PORT "status_led[1]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "status_led[2]" F19;
+IO_PORT "status_led[2]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "status_led[3]" F15;
+IO_PORT "status_led[3]" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "rgb_data" A16;
+IO_PORT "rgb_data" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "panic_n" AB13;
+IO_PORT "panic_n" IO_TYPE=LVCMOS15 PULL_MODE=UP BANK_VCCIO=1.5;
+IO_LOC "calibrate_n" Y12;
+IO_PORT "calibrate_n" IO_TYPE=LVCMOS15 PULL_MODE=UP BANK_VCCIO=1.5;
+IO_LOC "hp_bck" Y17;
+IO_PORT "hp_bck" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "hp_ws" AB17;
+IO_PORT "hp_ws" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "hp_din" AA16;
+IO_PORT "hp_din" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "pa_en" AB16;
+IO_PORT "pa_en" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+
+IO_LOC "tmds_clk_p_0" G15,G16;
+IO_PORT "tmds_clk_p_0" IO_TYPE=LVDS25E PULL_MODE=NONE DRIVE=8 BANK_VCCIO=2.5;
+IO_LOC "tmds_d_p_0[2]" K17,J17;
+IO_PORT "tmds_d_p_0[2]" IO_TYPE=LVDS25E PULL_MODE=NONE DRIVE=8 BANK_VCCIO=2.5;
+IO_LOC "tmds_d_p_0[1]" J15,H15;
+IO_PORT "tmds_d_p_0[1]" IO_TYPE=LVDS25E PULL_MODE=NONE DRIVE=8 BANK_VCCIO=2.5;
+IO_LOC "tmds_d_p_0[0]" J14,H14;
+IO_PORT "tmds_d_p_0[0]" IO_TYPE=LVDS25E PULL_MODE=NONE DRIVE=8 BANK_VCCIO=2.5;
+
+
+// W6 result/control link only: module TXD -> FPGA RX,3.3V digital levels.
+IO_LOC "uart_rx" AA19;
+IO_PORT "uart_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "uart_tx" AA20;
+IO_PORT "uart_tx" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "bt_state" AB21;
+IO_PORT "bt_state" IO_TYPE=LVCMOS33 PULL_MODE=DOWN BANK_VCCIO=3.3;
+
+// SUG1018 section2.8: GW5A(T)-60 DCE supports primary PG placement.
+// M04 SG[3] enable net is3.914ns; choose primary clock gating resources.
+// This changes placement only. All IO and SDC setup/hold checks are retained.
+INS_LOC "transport/pixel_gate" PG;
+
+IO_LOC "vel_rx" T21;
+IO_PORT "vel_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+IO_LOC "vel_tx" P19;
+IO_PORT "vel_tx" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+
+// V23 R01 proved old generated title_311_6 no longer exists after UI changes.
+// Remove that obsolete route hint only; all actual pins and SDC stay unchanged.
+
+IO_LOC "i2s_bck" T18;
+IO_PORT "i2s_bck" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=4 BANK_VCCIO=3.3;
+
+IO_LOC "i2s_lrck" R18;
+IO_PORT "i2s_lrck" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=4 BANK_VCCIO=3.3;
+
+IO_LOC "i2s_din" R17;
+IO_PORT "i2s_din" IO_TYPE=LVCMOS33 PULL_MODE=NONE DRIVE=4 BANK_VCCIO=3.3;
+
+// R06: SUG1018 section2.7, explicit global routing for reset/set sinks.
+// No clock number is guessed; verify actual allocation in the physical report.
+// Reset timing, RTL and every existing SDC requirement remain unchanged.
+CLOCK_LOC "audio_rst" BUFG = SR;
+
+// Inherited score reset policy retained; all SDC timing requirements unchanged.
+CLOCK_LOC "system/platform/audio/bank/scoring_frontend.scoring/engine/n640_6" BUFG = SR;
+// R12 verified DD reset exclusion from globals but gave751unrouted vs750.
+// Retire that routing experiment. No DD-specific generated-name hint remains;
+// actual DD reset roles and vendor automatic allocation are audited separately.
+
+// GS2: Primer20K T6 TX -> NEO PMOD0 P16 (official J9.7).
+IO_LOC "gesture_rx" P16;
+IO_PORT "gesture_rx" IO_TYPE=LVCMOS33 PULL_MODE=UP BANK_VCCIO=3.3;
+
+
+// Candidate: explicit route for the verified PCM sample enable and logic consumers.
+// SUG1018-1.7 section2.7; no frequency, pin or SDC exception change.
+CLOCK_LOC "pcm_sample_ce" BUFG = CE|LOGIC;

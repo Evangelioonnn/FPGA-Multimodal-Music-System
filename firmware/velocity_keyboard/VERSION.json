@@ -1,0 +1,9 @@
+{
+  "outputs": {
+    "velocity_keyboard.hex": "15ba1a50befe4fa02d45f5dc4d3fc33f511a54a75f38f89b1d8d2cc43d2ab7f1",
+    "velocity_keyboard.bin": "f9d8d8d6782ef4bd77c028b10d15e279aa00a58f211b93328e1699e85cf731cb",
+    "velocity_keyboard.elf": "6967b3d7861e8db76e3b85aa06554b8c4ed74f3928befb01817ee8435558a0f2"
+  },
+  "clock_hz": 64000000,
+  "capture_only": true
+}

@@ -1,0 +1,58 @@
+{
+  "identity": {
+    "schema": "p20-standalone-parent-rom-1",
+    "parent": "checkpoints/two_stage_paired_20261022_rgb32_hard/quantized.npz",
+    "reject": "checkpoints/two_stage_paired_20261022_rgb32_hard/quantized.npz",
+    "parent_sha256": "35eda6518326fd38de624488fdb8964f69242058760950231c6dae70bbefc790",
+    "reject_sha256": "35eda6518326fd38de624488fdb8964f69242058760950231c6dae70bbefc790",
+    "preprocessing": "RGB565 BE native32; bit replication RGB8; unsigned>>1; HWC RGB",
+    "network": "conv3x3pad1s1 3->8,conv3x3pad1s1 8->8;shift floor clip0..127;avg4floor HWC512;FC4 signedQ4 clip[-128,127]",
+    "outputs": [
+      "OPEN",
+      "FIST",
+      "REJECT",
+      "ACCEPT"
+    ],
+    "composition": "preserved trained parent conv0/1 and all four FC rows; no refitted reject substitution",
+    "gates": {
+      "pose_gap": 8,
+      "acceptance_gap": 8,
+      "pose_tie": "OPEN then pose-gap reject"
+    },
+    "rom_sha256": {
+      "conv.mem": "8174aafe988a9bd377e65ed8cab456be98d4b68d8066afc4cdd0278dcead6e0c",
+      "fc.mem": "d7558828583cef6665d9e5821026c12c72803810947c8ded9cd48fdbddece2de",
+      "bias.mem": "8964e092fefb1a71ccc5f3024922249143d4138f9863eda3113dd2659dc0bf82",
+      "shifts.mem": "a23d4c251695e45650405d1d68ea1ce39216c98da8dfa6d4b9dde126ec3a567c"
+    }
+  },
+  "identity_sha256": "dc5423302f9a36fa468c66b0b713ac9214360a140579c90b2877bd3de9a63576",
+  "model_id_hex": "dc5423302f9a36fa468c66b0b713ac92",
+  "hardware_bias_constants_sha256": "66b3294f78fdec456116969f8dd5d4dec8fe5904444c9f3408b9cc4e9c10219b",
+  "hardware_bias_scope": "case constants exactly encode bias.mem; implementation artifact outside canonical numerical model identity",
+  "model_id_recipe": "first16 bytes SHA256(json.dumps(identity,sort_keys=True,separators=(comma,colon),ensure_ascii=True).encode(ascii)); bytes in digest order",
+  "source_sha256": {
+    "export_model.py": "aaa575125c96b5a06e1f466524a99d2897c926da49facab8f989d2746cc1568e",
+    "reference.py": "57e68d8931bfef5c450dc310e6a19fb1db0a0c655a9eb022f20c98c257ec1111"
+  },
+  "rom_layout": {
+    "conv": "99x64bits;layer0 27 taps thenlayer1 72 taps;ci,ky,kx;8 signed bytes,output0 LSB",
+    "fc": "512x32bits;HWC featureaddress;4 signed bytes,OPEN LSB,FIST,REJECT,ACCEPT MSB",
+    "bias": "20x32bits signed [conv0out0..7,conv1out0..7,FCout0..3]",
+    "shifts": "6x8bits unsigned [conv0,conv1,FCopen,FCfist,FCreject,FCaccept]"
+  },
+  "shifts": [
+    5,
+    5,
+    9,
+    9,
+    9,
+    9
+  ],
+  "parameters": 2860,
+  "qualified": false,
+  "diagnostic": true,
+  "trained_here": false,
+  "threshold_tuned": false,
+  "old_files_modified": false
+}

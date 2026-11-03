@@ -1,0 +1,7 @@
+* text=auto
+/fpga/** -text -whitespace
+/firmware/** -text -whitespace
+/android/** -text -whitespace
+/hardware/** -text -whitespace
+/songs/** -text -whitespace
+/bin/** -text -whitespace

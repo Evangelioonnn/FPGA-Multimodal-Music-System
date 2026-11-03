@@ -1,0 +1,12 @@
+{
+  "profile": "MUSIC_WITH_GS2_SUSTAIN",
+  "melody_voices": 64,
+  "drum_voices": 8,
+  "score_game_melody_voices": 16,
+  "score_game_drum_voices": 4,
+  "independent_partial_mode": 512,
+  "looper_events": 2048,
+  "gesture_sustain": true,
+  "gesture_position_audio": false,
+  "manual_pitch_vibrato": true
+}

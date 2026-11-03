@@ -1,0 +1,15 @@
+{
+  "sha256": "17becacbf3f9be38094cf33adc29d32e1c69b37c62528ea512ebcfe8cc2e097f",
+  "frames_train": 568,
+  "views_train": 4500,
+  "teacher_correct_margin_views": 4438,
+  "teacher_wrong_views_keep_human_labels": true,
+  "teacher_correct_by_class": {
+    "0": 1270,
+    "1": 1570,
+    "2": 1598
+  },
+  "teacher_source": "original RGB feature_ce,not failed gray adapters",
+  "cache_scope": "no manual VAL crop;RGB runtime boxes frozen old automatic RFB",
+  "elapsed_s": 46.04600000000028
+}

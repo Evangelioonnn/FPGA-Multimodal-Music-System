@@ -1,0 +1,4 @@
+# Optional offline reference-model benchmark; keep separate from FPGA runtime.
+onnxruntime==1.23.2
+onnx==1.19.1
+opencv-python-headless==4.11.0.86

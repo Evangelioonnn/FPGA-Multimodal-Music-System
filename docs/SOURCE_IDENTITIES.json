@@ -1,0 +1,850 @@
+{
+  "production_files": {
+    "hardware/pcb/velocity_keyboard_board.eprj": {
+      "original": "hardware/pcb/DDswitch.eprj",
+      "SHA256": "8f0f2e0676ef3a30fd78678fea756f7ca3c2b6e5d7be95ad2c74968d77ec88f2"
+    },
+    "hardware/pcb/main_control_board.eprj": {
+      "original": "hardware/pcb/KEYBOARD_V2.eprj",
+      "SHA256": "62cf87ebb80e8946d337051bda7b0175c2d2d9bb5946a6a4252c554bed7444cc"
+    },
+    "hardware/pcb/pmod_adapter.eprj": {
+      "original": "hardware/pcb/PMOD_Adapter board.eprj",
+      "SHA256": "2b2ab56f654ed6df8b4f56e72b1a5c98fe637b257a5cc6e0e038cc5707db2d4a"
+    },
+    "fpga/gesture_vision/gesture_vision.cst": {
+      "original": "fpga/vision20k/live.cst",
+      "SHA256": "e1d1df4591686cb9536b6e7ccb62deaacde0220f344cc245a2a294b0f7814c1e"
+    },
+    "fpga/gesture_vision/gesture_vision.sdc": {
+      "original": "fpga/vision20k/live.sdc",
+      "SHA256": "b28c840efdb33d9c21692ca485da790dce7109bfb18a7747b18ba7a475a03fbc"
+    },
+    "fpga/gesture_vision/assets/bias_constants.vh": {
+      "original": "fpga/vision20k/assets/bias_constants.vh",
+      "SHA256": "66b3294f78fdec456116969f8dd5d4dec8fe5904444c9f3408b9cc4e9c10219b"
+    },
+    "fpga/gesture_vision/assets/model_id.vh": {
+      "original": "fpga/vision20k/assets/model_id.vh",
+      "SHA256": "037d5d2694778f3e507650b27d1e1acda7baecd620a8e60c326f8f14b8845a03"
+    },
+    "fpga/gesture_vision/src/autoxy_tracker.v": {
+      "original": "fpga/vision20k/src/autoxy_tracker.v",
+      "SHA256": "9271e3c0c21d0c5758c2d9c6095e81f113f9deee05a47040b4eb01b19215ca8a"
+    },
+    "fpga/gesture_vision/src/camera_capture_init.v": {
+      "original": "fpga/vision20k/src/camera_capture_init.v",
+      "SHA256": "f755c3b0521fdce3e1fa8140bd114b84207e4ad0e9a84a7088534658dc750591"
+    },
+    "fpga/gesture_vision/src/camera_input.v": {
+      "original": "fpga/vision20k/src/camera_input.v",
+      "SHA256": "ebc8f09eae458bf61bf67651938a71678a7c05c485d7aeb5f6dfca11ea8cabfa"
+    },
+    "fpga/gesture_vision/src/camera_preview_font.v": {
+      "original": "fpga/vision20k/src/camera_preview_font.v",
+      "SHA256": "d5953a96e91c782cd24d706114b891d7156ad2886d0e83eb9d8d2f4e90147003"
+    },
+    "fpga/gesture_vision/src/capture_control.v": {
+      "original": "fpga/vision20k/src/capture_control.v",
+      "SHA256": "46d8bb3e845db40771af014169547973f093d0065d58d725da2433136e7a912e"
+    },
+    "fpga/gesture_vision/src/crop_cnn.v": {
+      "original": "fpga/vision20k/src/crop_cnn.v",
+      "SHA256": "887eee15777a6aabe15d6074d56910e031f0a3d8cf129fe37a250a11728af375"
+    },
+    "fpga/gesture_vision/src/crop_controls.v": {
+      "original": "fpga/vision20k/src/crop_controls.v",
+      "SHA256": "5ba30c20838ad538eb5c2e024dc8d0a2e913ba57367e59f31614c0fe7648749e"
+    },
+    "fpga/gesture_vision/src/crop_frames.v": {
+      "original": "fpga/vision20k/src/crop_frames.v",
+      "SHA256": "003397559d42ce58bf78925195233c31cd194975ba751bca3bb72cf4ff197a3c"
+    },
+    "fpga/gesture_vision/src/dvi_tx_tmds_enc.v": {
+      "original": "fpga/vision20k/src/dvi_tx_tmds_enc.v",
+      "SHA256": "51d5278dcdfc6a3715a40ea16d3b530f2424339875f65386d87ca860673b30a1"
+    },
+    "fpga/gesture_vision/src/gs2_ge3_sender.v": {
+      "original": "fpga/vision20k/src/gs2_ge3_sender.v",
+      "SHA256": "a412da5b65a119b0e446c5d550e7f7dc03a710ddb47c0fa127bcc256cdd1be97"
+    },
+    "fpga/gesture_vision/src/gs2_sender.v": {
+      "original": "fpga/vision20k/src/gs2_sender.v",
+      "SHA256": "e28453a2aec88468ec802868d4c84543aa359d2aa7bc83b84f80f6639710b8bc"
+    },
+    "fpga/gesture_vision/src/gs2_sustain_control.v": {
+      "original": "fpga/vision20k/src/gs2_sustain_control.v",
+      "SHA256": "80dcfdc2f96f74c32ffdf7249dc7cca7f6235ee1a1bc981a76c4940841df9c24"
+    },
+    "fpga/gesture_vision/src/gs2_uart_tx.v": {
+      "original": "fpga/vision20k/src/gs2_uart_tx.v",
+      "SHA256": "e0d5c9a9371ce111c1896722a47530759975cf17807a1917177479e5d5f31275"
+    },
+    "fpga/gesture_vision/src/hdmi_phy.v": {
+      "original": "fpga/vision20k/src/hdmi_phy.v",
+      "SHA256": "8b9920c91b2bd5d41c3e0dcaf67c03c3642ed0e67677d0c27cf00c603e5ed3ff"
+    },
+    "fpga/gesture_vision/src/live_cache.v": {
+      "original": "fpga/vision20k/src/live_cache.v",
+      "SHA256": "abf2ae420b92f577c61800752be736e320a231d922278d2f363db9e20e6b5be8"
+    },
+    "fpga/gesture_vision/src/live_dispatch.v": {
+      "original": "fpga/vision20k/src/live_dispatch.v",
+      "SHA256": "ed7afed09545002bbbe70425919fa067fd6efc28e782a5dd80ce8a854a32d6e0"
+    },
+    "fpga/gesture_vision/src/live_font.v": {
+      "original": "fpga/vision20k/src/live_font.v",
+      "SHA256": "fd58d8be8ac0f147146fd51274d9cb93e4738eacfabc5e8eedbb328e9d851658"
+    },
+    "fpga/gesture_vision/src/live_jobs.v": {
+      "original": "fpga/vision20k/src/live_jobs.v",
+      "SHA256": "8f9e1617efe0cde87ee2ed62a5565fdc8c1559620ebef13eb893ae7626a53561"
+    },
+    "fpga/gesture_vision/src/live_render.v": {
+      "original": "fpga/vision20k/src/live_render.v",
+      "SHA256": "7011e950969dc20f2efddfc89558eda68134187e246008ea67bf0d9095b3c107"
+    },
+    "fpga/gesture_vision/src/gesture_vision_top.v": {
+      "original": "fpga/vision20k/src/live_top.v",
+      "SHA256": "6b3ed110982fe6cb78d848d8515e4e1cda618b1209fb37bf93c136974d4fd1fa"
+    },
+    "fpga/gesture_vision/src/live_tx.v": {
+      "original": "fpga/vision20k/src/live_tx.v",
+      "SHA256": "5107d4758a97537261a70a7176d4d036ff394c60c859dd90b5851c880edf6678"
+    },
+    "fpga/gesture_vision/src/lut_ov5640_rgb565_1280_720.v": {
+      "original": "fpga/vision20k/src/lut_ov5640_rgb565_1280_720.v",
+      "SHA256": "8e4f97b18f65b660fc110089da893985b1fa88d534af8becc260e6d2cb4cb6bb"
+    },
+    "fpga/gesture_vision/src/preview_timing.v": {
+      "original": "fpga/vision20k/src/preview_timing.v",
+      "SHA256": "af1aa0d46498c43c96f0088bb8ed1a1c08e5f981562ca49962051d0a679a753f"
+    },
+    "fpga/gesture_vision/src/probe_uart.v": {
+      "original": "fpga/vision20k/src/probe_uart.v",
+      "SHA256": "6f046a0f12ea6da743e34936824edbd58339337b12f094dbe72bb72c444538c4"
+    },
+    "fpga/gesture_vision/src/sccb_read.v": {
+      "original": "fpga/vision20k/src/sccb_read.v",
+      "SHA256": "a09d981fa68eb73d5d9d56ef348f772292989ecd4665f8bce340e98ed3a430d2"
+    },
+    "fpga/gesture_vision/src/sccb_write.v": {
+      "original": "fpga/vision20k/src/sccb_write.v",
+      "SHA256": "501b67f3012b79521ee93accc019d13b70d18da46a09671ca30575e05b42164f"
+    },
+    "fpga/gesture_vision/src/snapshot_cdc.v": {
+      "original": "fpga/vision20k/src/snapshot_cdc.v",
+      "SHA256": "9ef41bbaabcb6c2432aa07f1fc575c69e33a23976f5c25e6db531551cc0288e8"
+    },
+    "fpga/gesture_vision/src/TMDS_rPLL.v": {
+      "original": "fpga/vision20k/src/TMDS_rPLL.v",
+      "SHA256": "5efb41d6ca582d30754b42df62bbc6d49b410cda8ea487cd9d808929f72bcd43"
+    },
+    "fpga/gesture_vision/src/video_clocks.v": {
+      "original": "fpga/vision20k/src/video_clocks.v",
+      "SHA256": "6b6b6e8d369d8fae2f12009ff0b006b4842cbbdd9ee9f2d90ddcbf12f37126bd"
+    },
+    "fpga/gesture_vision/src/xy_effect_control.v": {
+      "original": "fpga/vision20k/src/xy_effect_control.v",
+      "SHA256": "42cf816419303a39da8d7271831d2ff9c9062cd2b34328956161fb14359cde13"
+    },
+    "fpga/music_controller/rtl/audio_command_bridge.v": {
+      "original": "fpga/main60k/rtl/audio_command_bridge.v",
+      "SHA256": "cac6280d48e0b66c03b26966b748868cd059e6ab4d30a17fa4c72371018d2472"
+    },
+    "fpga/music_controller/rtl/audio_panel.v": {
+      "original": "fpga/main60k/rtl/audio_panel.v",
+      "SHA256": "96f97fa6d51687e1587ec40b087158ea60691fd060f75161e226298699a5612f"
+    },
+    "fpga/music_controller/rtl/audio_parameter_service.v": {
+      "original": "fpga/main60k/rtl/audio_parameter_service.v",
+      "SHA256": "feb534e4b01764362713cc3e12769bedd975feb89ae948a1d82db31a1e3ce824"
+    },
+    "fpga/music_controller/rtl/audio_pcm_bridge.v": {
+      "original": "fpga/main60k/rtl/audio_pcm_bridge.v",
+      "SHA256": "e3498c8ddf7ad2f335fe5c8d5ea2c1e7a7ae1794fa7295c4ffa09ced238fd93f"
+    },
+    "fpga/music_controller/rtl/audio_transport_reset.v": {
+      "original": "fpga/main60k/rtl/audio_transport_reset.v",
+      "SHA256": "722317c313ed1ef9b51deca855dcb00c9dce7bb82f60827a1d4f40735e9bd099"
+    },
+    "fpga/music_controller/rtl/plucked_tone.v": {
+      "original": "fpga/main60k/rtl/audio_v2_pluck.v",
+      "SHA256": "2e27386418df8885bbfa45ddc5b354056bb003fd234d5e9f59f2518bd9319239"
+    },
+    "fpga/music_controller/rtl/voice_pool_slot.v": {
+      "original": "fpga/main60k/rtl/audio_v2_pool_slot.v",
+      "SHA256": "582233542c72383d999129a5f402ceb96b00b1f372f74da8b24fe9baf3919b4b"
+    },
+    "fpga/music_controller/rtl/tone_renderer.v": {
+      "original": "fpga/main60k/rtl/audio_v2_tone.v",
+      "SHA256": "532a3de1d415059121799880f64e1c2fa39cc6180f7c1491db9a703d7f46ea74"
+    },
+    "fpga/music_controller/rtl/board_analog.v": {
+      "original": "fpga/main60k/rtl/board_analog.v",
+      "SHA256": "ddddc285742adbe685a8fde71accc4f9859a014bd0c937d92e468ae02f32b24e"
+    },
+    "fpga/music_controller/rtl/board_ec11.v": {
+      "original": "fpga/main60k/rtl/board_ec11.v",
+      "SHA256": "c9653ab3c05ea7d245c19b4f2104712a070beee1a97b4cfb404e4f22bfd48700"
+    },
+    "fpga/music_controller/rtl/board_inputs.v": {
+      "original": "fpga/main60k/rtl/board_inputs.v",
+      "SHA256": "cb39d5023fc193cc261729585201955b15f97f33af1309ae9c6fcd02e30d610c"
+    },
+    "fpga/music_controller/rtl/board_rgb_map.v": {
+      "original": "fpga/main60k/rtl/board_rgb_map.v",
+      "SHA256": "33669734d282cb7b51e6f61f214c57b41b3a50ba0615dd07a9bb79b2c81c7e18"
+    },
+    "fpga/music_controller/rtl/bus_filter.v": {
+      "original": "fpga/main60k/rtl/bus_filter.v",
+      "SHA256": "1574af4a776e0646cbb5152a6a6c879e4c8d90670116fd5b3c2884756456ab46"
+    },
+    "fpga/music_controller/rtl/control_audio_platform.v": {
+      "original": "fpga/main60k/rtl/control_audio_platform.v",
+      "SHA256": "8a39ebce2b96135fe4a2b4b3465ad2f0536eb27086442cc35b0d4d8005700947"
+    },
+    "fpga/music_controller/rtl/control_audio_system.v": {
+      "original": "fpga/main60k/rtl/control_audio_system.v",
+      "SHA256": "409c7f42d508dc2e760999ee40d46ab61beb8bf2720415661655c9bef2a6de1c"
+    },
+    "fpga/music_controller/rtl/control_expression.v": {
+      "original": "fpga/main60k/rtl/control_expression.v",
+      "SHA256": "e132f18889db32611a57f73638f0a86c005b8bd97d05b75f9100a54fb22ce097"
+    },
+    "fpga/music_controller/rtl/control_guide_rgb.v": {
+      "original": "fpga/main60k/rtl/control_guide_rgb.v",
+      "SHA256": "e612ff0677ebce246abdca3657fed5e1c492dded99804be6dfce12fc8b8cd3f0"
+    },
+    "fpga/music_controller/rtl/control_key_map.v": {
+      "original": "fpga/main60k/rtl/control_key_map.v",
+      "SHA256": "e692db3bdc72c105ec8b6deedb441aa004877773d14754814ccbe7f00e007ee6"
+    },
+    "fpga/music_controller/rtl/control_navigation.v": {
+      "original": "fpga/main60k/rtl/control_navigation.v",
+      "SHA256": "95ade49be26bf8f18bc9002b0084b6d76023fababdfb31527966bd1c33e4e961"
+    },
+    "fpga/music_controller/rtl/control_policy.v": {
+      "original": "fpga/main60k/rtl/control_policy.v",
+      "SHA256": "99ffe931e346a7e640b0d68b6c33765d55fa51bf9be29f5f938e8ebed864596f"
+    },
+    "fpga/music_controller/rtl/control_rgb_palette.v": {
+      "original": "fpga/main60k/rtl/control_rgb_palette.v",
+      "SHA256": "ba806ba2503a2a4184eebcd10adcae7c4d11ccc48e5023ee1f329c46aed15988"
+    },
+    "fpga/music_controller/rtl/custom_harmonic_params.v": {
+      "original": "fpga/main60k/rtl/custom_harmonic_params.v",
+      "SHA256": "cfc51e8929c76915cad5ca1338ac0627dfeb20e7ee74ae9503f64327236fe6a2"
+    },
+    "fpga/music_controller/rtl/dcl_curve.v": {
+      "original": "fpga/main60k/rtl/dcl_curve.v",
+      "SHA256": "184bbcf420cca5464a2f042e3facfddc61bc2d7fe9b391195309e28883f94564"
+    },
+    "fpga/music_controller/rtl/dcl_receiver.v": {
+      "original": "fpga/main60k/rtl/dcl_receiver.v",
+      "SHA256": "c6f01af21b6fbba1a9de29bbab1a320c3ee335b7e15fb944779cc660609cdd64"
+    },
+    "fpga/music_controller/rtl/dcl_uart.v": {
+      "original": "fpga/main60k/rtl/dcl_uart.v",
+      "SHA256": "6c44cf3064d3968140e572418689533cfbd6ca74633e6ce10c80de6c080d9f05"
+    },
+    "fpga/music_controller/rtl/dcl_velocity.v": {
+      "original": "fpga/main60k/rtl/dcl_velocity.v",
+      "SHA256": "5328efad9328db8a9721680ad2b36d4d0168ad35b074209b104c7fa6fa34090f"
+    },
+    "fpga/music_controller/rtl/dd_keyboard.v": {
+      "original": "fpga/main60k/rtl/dd_keyboard.v",
+      "SHA256": "9ce5303caca6c98be6a9683444344037eb4081b6dd614b4ec17936cd833f2a58"
+    },
+    "fpga/music_controller/rtl/envelope_controls.v": {
+      "original": "fpga/main60k/rtl/envelope_controls.v",
+      "SHA256": "4e4cae53d5684a246b233d81e274fdcf117a83c5ef76618cd56233e12c9b1d61"
+    },
+    "fpga/music_controller/rtl/fader_mode_adapter.v": {
+      "original": "fpga/main60k/rtl/fader_mode_adapter.v",
+      "SHA256": "df81630056e5f5463d3e64ea2cf60ad5d8e476981d2bdc694648c38824a65ee8"
+    },
+    "fpga/music_controller/rtl/gesture_expression_control.v": {
+      "original": "fpga/main60k/rtl/gesture_expression_control.v",
+      "SHA256": "b168b6f556b2db0d056bae1f9eb75c1ec6c40fe126f7c5e37d610a22c17fbf8d"
+    },
+    "fpga/music_controller/rtl/gesture_pedal_control.v": {
+      "original": "fpga/main60k/rtl/gesture_pedal_control.v",
+      "SHA256": "775d87876b3761cad76966e8408acbf02ee5a5d87515b0feeb53a5d12b769c49"
+    },
+    "fpga/music_controller/rtl/gesture_pitch_apply.v": {
+      "original": "fpga/main60k/rtl/gesture_pitch_apply.v",
+      "SHA256": "52320d1051526f3451549121cf4a7337eebfa37b27b3a971928c87d00ccafc9f"
+    },
+    "fpga/music_controller/rtl/gs2_receiver.v": {
+      "original": "fpga/main60k/rtl/gs2_receiver.v",
+      "SHA256": "dd0191583b0bc09e29ee209f54c9fc6a85b9d4669406f2db1d8ded87aeed00ff"
+    },
+    "fpga/music_controller/rtl/i2s_pcm5102_tx.v": {
+      "original": "fpga/main60k/rtl/i2s_pcm5102_tx.v",
+      "SHA256": "9ed4e6c116ff8fb7dfec17b8d769148040ff7e930eecd47c66c304f9938e46bf"
+    },
+    "fpga/music_controller/rtl/knob_gain.v": {
+      "original": "fpga/main60k/rtl/knob_gain.v",
+      "SHA256": "828a5b3b24adec7ad14c2e9d3ebf4b45b3437d1d3116e5a150cd75fe556a7257"
+    },
+    "fpga/music_controller/rtl/library_client.v": {
+      "original": "fpga/main60k/rtl/library_client.v",
+      "SHA256": "415ecfe4216b8d9465ccb1ded8a48e7232df1f1c2c9bf941b93ea78f8d59c24c"
+    },
+    "fpga/music_controller/rtl/library_tx_arbiter.v": {
+      "original": "fpga/main60k/rtl/library_tx_arbiter.v",
+      "SHA256": "17af96418b0be243b40893fcf8a3bf1d7b826fc8f49a92489dc1c22a6a65d3ea"
+    },
+    "fpga/music_controller/rtl/looper_audio_bank.v": {
+      "original": "fpga/main60k/rtl/looper_audio_bank.v",
+      "SHA256": "07108ca6bf36686354433bcb793a4bf05470313d6564a35db115e99578b4476f"
+    },
+    "fpga/music_controller/rtl/looper_audio_core.v": {
+      "original": "fpga/main60k/rtl/looper_audio_core.v",
+      "SHA256": "e0532e016f05559f573493853025e1f3072e0b775ee8c2ad0920459aeef0ac4c"
+    },
+    "fpga/music_controller/rtl/looper_clock.v": {
+      "original": "fpga/main60k/rtl/looper_clock.v",
+      "SHA256": "3f9194cb4698639837f4e588d8958861f3e4a6775b4a4551b86bdd7516e455a5"
+    },
+    "fpga/music_controller/rtl/looper_controls.v": {
+      "original": "fpga/main60k/rtl/looper_controls.v",
+      "SHA256": "e451255fb237735df472ac41d77a412ed47a5d20238a4276ff4ec4b08eb8824e"
+    },
+    "fpga/music_controller/rtl/looper_drum_engine.v": {
+      "original": "fpga/main60k/rtl/looper_drum_engine.v",
+      "SHA256": "c882aaab20798a0ce0e837e65d785c5740d9f632ddea0aa8c50c55607a877d1a"
+    },
+    "fpga/music_controller/rtl/looper_event_router.v": {
+      "original": "fpga/main60k/rtl/looper_event_router.v",
+      "SHA256": "2ce74d03b6effe61d47545eca0efb9ea965a1b4d3a4b4cdc4fa83c5ab2805b50"
+    },
+    "fpga/music_controller/rtl/looper_event_store.v": {
+      "original": "fpga/main60k/rtl/looper_event_store.v",
+      "SHA256": "070bcc34e4af6c1b713fe4f2a381c47daff0a2a0d842048206a4dc9560e770f3"
+    },
+    "fpga/music_controller/rtl/looper_expression_capture.v": {
+      "original": "fpga/main60k/rtl/looper_expression_capture.v",
+      "SHA256": "7612cd5e58fdb7e626ec786339111076a141bef067e15604516c8a34e9f6bf1a"
+    },
+    "fpga/music_controller/rtl/looper_keys.v": {
+      "original": "fpga/main60k/rtl/looper_keys.v",
+      "SHA256": "f21f240ef36a5165784776b90f64f9aa42560417ec67fc05c9eed08237e5da9b"
+    },
+    "fpga/music_controller/rtl/looper_transport.v": {
+      "original": "fpga/main60k/rtl/looper_transport.v",
+      "SHA256": "9cf04fcf7cf2bc9cf03721ef833f70808b3f5605aae124b35b45aa6b8f9ceb4b"
+    },
+    "fpga/music_controller/rtl/matrix_scanner.v": {
+      "original": "fpga/main60k/rtl/matrix_scanner.v",
+      "SHA256": "fb1a049f4752100d55fe47c009219a7afd1e222479bc3ebc24e2f218f84a8e1a"
+    },
+    "fpga/music_controller/rtl/mcp3208_reader.v": {
+      "original": "fpga/main60k/rtl/mcp3208_reader.v",
+      "SHA256": "e1bdcc11ff288da8425146adb040bfbbed1328cce4a11dc29fabf54d726a4bcf"
+    },
+    "fpga/music_controller/rtl/metronome_click.v": {
+      "original": "fpga/main60k/rtl/metronome_click.v",
+      "SHA256": "57f07bc3a5b24dd2068190e62973f38cd2cae56e38759ab0c67f9b697f576bc2"
+    },
+    "fpga/music_controller/rtl/note_table.v": {
+      "original": "fpga/main60k/rtl/note_table.v",
+      "SHA256": "ad1c1f6a84280c3e89515cd6cc885fc6d1f841dc951a6ff34187b924b385bdee"
+    },
+    "fpga/music_controller/rtl/offline_song_guide.v": {
+      "original": "fpga/main60k/rtl/offline_song_guide.v",
+      "SHA256": "dd22b85bd573d7bab8622b03c22b15bd6b6599d932e1666afe5d2f320a047569"
+    },
+    "fpga/music_controller/rtl/output_tx.v": {
+      "original": "fpga/main60k/rtl/output_tx.v",
+      "SHA256": "7cefd245f5c8984ee6b0a4089b8aabd6ee950f242a11c4a6d34fde46933460c3"
+    },
+    "fpga/music_controller/rtl/playable_button.v": {
+      "original": "fpga/main60k/rtl/playable_button.v",
+      "SHA256": "50eff281024b2551b3a1b456d84b384564fb928bc0fc045f61a282cb33cf24fc"
+    },
+    "fpga/music_controller/rtl/pluck_note_table.v": {
+      "original": "fpga/main60k/rtl/pluck_note_table.v",
+      "SHA256": "233c4d5f783a448a7bd5e966485fe018b441a42f16e271168ecece68b051e5fe"
+    },
+    "fpga/music_controller/rtl/practice_controls.v": {
+      "original": "fpga/main60k/rtl/practice_controls.v",
+      "SHA256": "8dcbef8928c0495cf12bfba7decef82ee949d2190c1e5869a3fb6419b832c4df"
+    },
+    "fpga/music_controller/rtl/practice_shared_memory.v": {
+      "original": "fpga/main60k/rtl/practice_shared_memory.v",
+      "SHA256": "1bcbe61fbc5a3d9bb0bd58ff05f69395b942fa27f5f2e2c2513481012cffc96a"
+    },
+    "fpga/music_controller/rtl/practice_subsystem.v": {
+      "original": "fpga/main60k/rtl/practice_subsystem.v",
+      "SHA256": "679566cabf7da7c66bceeae2195b461f4e87f20fe436effd937d16dae0e87853"
+    },
+    "fpga/music_controller/rtl/pt8211_tx.v": {
+      "original": "fpga/main60k/rtl/pt8211_tx.v",
+      "SHA256": "7174e35e5327a7a2b69100a4431b95b67f840c48c95dfdb36afc80650c901ce4"
+    },
+    "fpga/music_controller/rtl/refinement_config_arbiter.v": {
+      "original": "fpga/main60k/rtl/refinement_config_arbiter.v",
+      "SHA256": "c67415c17127e9b7e36f4a72cd43acdd78e98f62fe1448747a768892dc409b3f"
+    },
+    "fpga/music_controller/rtl/refinement_link.v": {
+      "original": "fpga/main60k/rtl/refinement_link.v",
+      "SHA256": "cf445f0ef0dabf33eb28f00b759c9fddefc812f8e687a236646237d8e9a67b42"
+    },
+    "fpga/music_controller/rtl/refinement_sine.v": {
+      "original": "fpga/main60k/rtl/refinement_sine.v",
+      "SHA256": "2a130185314dfe487cdd114aa2b3d1aa6c9581e1fa754d0918d0105c380cc6c0"
+    },
+    "fpga/music_controller/rtl/refinement_snapshot_bridge.v": {
+      "original": "fpga/main60k/rtl/refinement_snapshot_bridge.v",
+      "SHA256": "e40b6a72183aa9eff6e82f1b77ea3327c4783b5f1b1d5741bb0481a4f32978be"
+    },
+    "fpga/music_controller/rtl/score_guide_controls.v": {
+      "original": "fpga/main60k/rtl/score_guide_controls.v",
+      "SHA256": "8570de754b19e0a199949f02cfe2489bb7ab5c55c31e56b3e82f4c698256e376"
+    },
+    "fpga/music_controller/rtl/scoring_partial_compact.v": {
+      "original": "fpga/main60k/rtl/scoring_partial_compact.v",
+      "SHA256": "bd681cd884de4eb9e397b15fd16d7dcceb8446a76925c4ce618a8177bdf3e038"
+    },
+    "fpga/music_controller/rtl/scoring_session.v": {
+      "original": "fpga/main60k/rtl/scoring_session.v",
+      "SHA256": "2aec785f080bbeda32b25a48374659d36b5079ad3ace7c8d055ccc95ff13451e"
+    },
+    "fpga/music_controller/rtl/session_command_bridge.v": {
+      "original": "fpga/main60k/rtl/session_command_bridge.v",
+      "SHA256": "afcb51307e197c63d9fa4b5d64d49934b71af307f3271f99d98d3a099f58675e"
+    },
+    "fpga/music_controller/rtl/session_dispatcher.v": {
+      "original": "fpga/main60k/rtl/session_dispatcher.v",
+      "SHA256": "536be0331979273e6c31081487629ebfe0aad723a5797c4722953c82bd4d32a9"
+    },
+    "fpga/music_controller/rtl/session_link.v": {
+      "original": "fpga/main60k/rtl/session_link.v",
+      "SHA256": "6d282b4c1ff081f2a57abf3041b95752bf7b267592e22559e7c84a09d2e506d2"
+    },
+    "fpga/music_controller/rtl/session_ui_bridge.v": {
+      "original": "fpga/main60k/rtl/session_ui_bridge.v",
+      "SHA256": "e1f0fa4c03dc50b25741bc988551cdad257ba6811e7ac4907cc5c15c82eed23d"
+    },
+    "fpga/music_controller/rtl/session_ui_unpacker.v": {
+      "original": "fpga/main60k/rtl/session_ui_unpacker.v",
+      "SHA256": "96721d75471c82613bae865bab6f719d467e7056d303f868517c6175491e66e4"
+    },
+    "fpga/music_controller/rtl/shared_space_fx.v": {
+      "original": "fpga/main60k/rtl/shared_space_fx.v",
+      "SHA256": "a3d7c0ac555142391a5e7359fa72528e4d77c844ff98f8f34eeccb5d66954302"
+    },
+    "fpga/music_controller/rtl/short_room_reverb.v": {
+      "original": "fpga/main60k/rtl/short_room_reverb.v",
+      "SHA256": "7634afe907f341477fb56e6d44a26687ee6a564062553a7430f45e14b80601a7"
+    },
+    "fpga/music_controller/rtl/sine_rom.v": {
+      "original": "fpga/main60k/rtl/sine_rom.v",
+      "SHA256": "11c050290b2bd5594b9b64f5e23a0e7fbe1576236b6ebc674493e20284481e44"
+    },
+    "fpga/music_controller/rtl/sk6812_012.v": {
+      "original": "fpga/main60k/rtl/sk6812_012.v",
+      "SHA256": "706c372af0d002ea928f820ea4d87a614eb6629be6b870aba78cf63b961ce8a5"
+    },
+    "fpga/music_controller/rtl/stream_fifo.v": {
+      "original": "fpga/main60k/rtl/stream_fifo.v",
+      "SHA256": "13ff9b41128bf626f360eeca94fcb86e4974b37b2444fa850e03bb846f424559"
+    },
+    "fpga/music_controller/rtl/timbre_envelope_parameters.v": {
+      "original": "fpga/main60k/rtl/timbre_envelope_parameters.v",
+      "SHA256": "c98cac1a9da9f92a77a286e63ff0dfd318c6c6dd22ce16a4b924402652ec0176"
+    },
+    "fpga/music_controller/rtl/unified_renderer_backend.v": {
+      "original": "fpga/main60k/rtl/unified_renderer_backend.v",
+      "SHA256": "f8c806622138f68941d0f05c5cde99df8256539bb7ebd8dff7cdef93e3e4c95d"
+    },
+    "fpga/music_controller/rtl/performance_controls.v": {
+      "original": "fpga/main60k/rtl/v18_controls.v",
+      "SHA256": "58e0cd1230c23b70f247e83a5d8e22f79d9e4a31001a46e73189e8afde2ba62c"
+    },
+    "fpga/music_controller/rtl/vibrato_factor.v": {
+      "original": "fpga/main60k/rtl/vibrato_factor.v",
+      "SHA256": "a489071e56a4d09e76393186b811f6c64cefa4bcbb3e40d7439c7e2fa9e3b8a0"
+    },
+    "fpga/music_controller/rtl/voice_record_ram.v": {
+      "original": "fpga/main60k/rtl/voice_record_ram.v",
+      "SHA256": "62f09dc9c0a30ac73b96ad4fb4ca2c0e15e4d2c2648e11e11e3055d249fb77b1"
+    },
+    "fpga/music_controller/rtl/workbench_focus_graph.v": {
+      "original": "fpga/main60k/rtl/workbench_focus_graph.v",
+      "SHA256": "abfc315210de24031b05adf7a851efec69ee3d251379ea3fe8446e8a2e5e767d"
+    },
+    "fpga/music_controller/src/music_controller.cst": {
+      "original": "fpga/main60k/src/control_ui_v24.cst",
+      "SHA256": "d3a0f36c0143200aaf369f453b2004b8350a3c1a27477efc9298763d72c9ec9f"
+    },
+    "fpga/music_controller/src/music_controller.sdc": {
+      "original": "fpga/main60k/src/control_ui_v24.sdc",
+      "SHA256": "3e929c4e21066834207f8baa6beb72e5b233fd594fbea53e957013456deef358"
+    },
+    "fpga/music_controller/src/music_controller_top.v": {
+      "original": "fpga/main60k/src/control_ui_v24_top.v",
+      "SHA256": "b81d7ba0f40a3443b7b53bd033d054792ed5422919789ba6cf014b5b2a7705f2"
+    },
+    "fpga/music_controller/src/ensemble_envelope.v": {
+      "original": "fpga/main60k/src/ensemble_envelope.v",
+      "SHA256": "ffdca4e46c9bbde1fe7536384a69a5562fc7d9b3a8e32d85d8cfd8ce95ccb8c6"
+    },
+    "fpga/music_controller/src/ensemble_notes.v": {
+      "original": "fpga/main60k/src/ensemble_notes.v",
+      "SHA256": "13bbf684b2ca21d16feeb7daf2909cfc95803756995ad1693dcf63afe59d9d06"
+    },
+    "fpga/music_controller/src/preview_wave_rom.v": {
+      "original": "fpga/main60k/src/preview_wave_rom.v",
+      "SHA256": "a2bfbe9e0b5d1cbfefb147cab0df3414ded47fd197e6e234b6aba315b8850bdd"
+    },
+    "fpga/music_controller/src/selected_ensemble_rom.v": {
+      "original": "fpga/main60k/src/selected_ensemble_rom.v",
+      "SHA256": "2c49aa11166098442b06ff3b20d240188959f77196186a60a66ae853f0865188"
+    },
+    "fpga/music_controller/src/synth_curve_builder.v": {
+      "original": "fpga/main60k/src/synth_curve_builder.v",
+      "SHA256": "4b61cbc388f261e94a724f6081d732f9e65bbc3c2e676a75053cba195d2aa3f5"
+    },
+    "fpga/music_controller/src/synth_frame_ram.v": {
+      "original": "fpga/main60k/src/synth_frame_ram.v",
+      "SHA256": "24d2fc86311e4d74d716f736e87956d538de4def135c838bd23e7d2b5f289382"
+    },
+    "fpga/music_controller/src/synth_overlay.v": {
+      "original": "fpga/main60k/src/synth_overlay.v",
+      "SHA256": "d49abc735a061fba1181a3aa9f888cf68f58281c647d9e6635786fff82f9ada3"
+    },
+    "fpga/music_controller/src/ui_console_writer.v": {
+      "original": "fpga/main60k/src/ui_console_writer.v",
+      "SHA256": "9cd77844b5b3b8d1e3c53f33e1b283b6a7d239556992acb17db743437ae2ff06"
+    },
+    "fpga/music_controller/src/ui_labels.v": {
+      "original": "fpga/main60k/src/ui_labels.v",
+      "SHA256": "4b8231f4e693c421a2dfcaa48b7d89d0c50407103b38a8e164cfbaed0275dc15"
+    },
+    "fpga/music_controller/src/wavetable_rom.v": {
+      "original": "fpga/main60k/src/wavetable_rom.v",
+      "SHA256": "97249ebb5a53ff8080a9009b2da388d8cdbb912d10101b517d6d570f4bfd541e"
+    },
+    "fpga/music_controller/src/workbench_geometry.v": {
+      "original": "fpga/main60k/src/workbench_geometry.v",
+      "SHA256": "c2cffc1d760e821bd61c8dbe01991877d70cf66a37e8b7971d94700b9415d62d"
+    },
+    "fpga/music_controller/vendor/c/av_display.v": {
+      "original": "fpga/main60k/vendor/c/av_display.v",
+      "SHA256": "66be7db290c3a85fbd7235c0ede5c9f284cfbe2ac63ba3238c88fdcb1a2e9c5a"
+    },
+    "fpga/music_controller/vendor/c/av_dvi_tx.v": {
+      "original": "fpga/main60k/vendor/c/av_dvi_tx.v",
+      "SHA256": "bddef841a6659246b96e6cb3e1c76b00034db98d517aa0f9bfaacdc91ee4fb64"
+    },
+    "fpga/music_controller/vendor/c/av_font.v": {
+      "original": "fpga/main60k/vendor/c/av_font.v",
+      "SHA256": "94be46fe995ab0131e8b318bb8f70fdd51e5bb8f34ea68a885fa5983fee82e70"
+    },
+    "fpga/music_controller/vendor/c/av_frame_ram.v": {
+      "original": "fpga/main60k/vendor/c/av_frame_ram.v",
+      "SHA256": "956e06c5cbe48cbe581d0616692fbd1d6d9f577b773ad20045424abff6b64e44"
+    },
+    "fpga/music_controller/vendor/c/av_labels.v": {
+      "original": "fpga/main60k/vendor/c/av_labels.v",
+      "SHA256": "ec4b633eef492eb3e3e1b511d581193098a00b83ede0cdb4091944684dbc6be0"
+    },
+    "fpga/music_controller/vendor/c/av_pcm_window.v": {
+      "original": "fpga/main60k/vendor/c/av_pcm_window.v",
+      "SHA256": "6ae24b2ef60b332bb6d77507d4462f117f8b9fc81ba56f328d2fec5f9a70e1a7"
+    },
+    "fpga/music_controller/vendor/c/av_renderer.v": {
+      "original": "fpga/main60k/vendor/c/av_renderer.v",
+      "SHA256": "35bf566729d01a873b7c79353344896867e128cb2098651b568fce8f046ce6de"
+    },
+    "fpga/music_controller/vendor/c/av_serializer_start.v": {
+      "original": "fpga/main60k/vendor/c/av_serializer_start.v",
+      "SHA256": "dcb43e6d5aae93d11ecfaf9d4d6f9294b186117d4e40bbb39aed184e205fbbe6"
+    },
+    "fpga/music_controller/vendor/c/av_timing.v": {
+      "original": "fpga/main60k/vendor/c/av_timing.v",
+      "SHA256": "7ffb2a0c66809930708e2640726769d2dc4f1542efe9bbe31100b684885be1dd"
+    },
+    "fpga/music_controller/vendor/c/av_wave_capture.v": {
+      "original": "fpga/main60k/vendor/c/av_wave_capture.v",
+      "SHA256": "1328e9fd195577f63158e30c654abfe870cbac65d034890104fbf1bd8012d61d"
+    },
+    "fpga/music_controller/vendor/c/av_wave_labels.v": {
+      "original": "fpga/main60k/vendor/c/av_wave_labels.v",
+      "SHA256": "cac9094104e4f2799651ac37febd4e9a898f8cd497d571ca4958542e4c078c57"
+    },
+    "fpga/music_controller/vendor/c/av_wave_renderer.v": {
+      "original": "fpga/main60k/vendor/c/av_wave_renderer.v",
+      "SHA256": "5ed36aa432af04fa9247189827adacaac54d5bee67be15def66204f1ac9d03aa"
+    },
+    "fpga/music_controller/vendor/c/dvi_tx_tmds_enc.v": {
+      "original": "fpga/main60k/vendor/c/dvi_tx_tmds_enc.v",
+      "SHA256": "9661f00ea5882220295a0ab73115bb22beaeae8696d35a39b27762e5d3cd4c9c"
+    },
+    "fpga/music_controller/vendor/pll/gowin_pll.v": {
+      "original": "fpga/main60k/vendor/pll/gowin_pll.v",
+      "SHA256": "72148180b64daada0ffac77b30dc6f18517348d73a1fb6a65c39dfc4fc296d3d"
+    },
+    "fpga/music_controller/vendor/pll/gowin_pll_mod.v": {
+      "original": "fpga/main60k/vendor/pll/gowin_pll_mod.v",
+      "SHA256": "d9ec902d4a9eca26a7ce0e0fccd5f90efbd1c7eea2fdd184273f1b3d485fbb86"
+    },
+    "fpga/music_controller/vendor/pll/pll_init.v": {
+      "original": "fpga/main60k/vendor/pll/pll_init.v",
+      "SHA256": "3fc6bef9a7086f0920bfa47265b1766854a53f6ca1c0f75084eaf6b6ef4d6258"
+    },
+    "fpga/music_controller/src/analysis/av_spectrum_fft.v": {
+      "original": "fpga/main60k/src/analysis/av_spectrum_fft.v",
+      "SHA256": "fbea431424428c90036892600170ec34123c1c8b9b8961b0882a1eabc0beb0b8"
+    },
+    "fpga/music_controller/src/analysis/av_spectrum_rom.v": {
+      "original": "fpga/main60k/src/analysis/av_spectrum_rom.v",
+      "SHA256": "ab4b50fc70c38366dd161c413090e7b2fcae7c4f298df8e7e95458bd3578a5f1"
+    },
+    "fpga/music_controller/src/analysis/pcb_analysis_bank.v": {
+      "original": "fpga/main60k/src/analysis/pcb_analysis_bank.v",
+      "SHA256": "537d9394ad9b1106a5be991db0c421e5c590f4bca584685a473f12c4db75fd4b"
+    },
+    "fpga/music_controller/src/analysis/pcb_analysis_capture.v": {
+      "original": "fpga/main60k/src/analysis/pcb_analysis_capture.v",
+      "SHA256": "18a8bb1576607609a3b82801e82ec42b96bd38273dc5d650de34988833dd812d"
+    },
+    "fpga/music_controller/src/analysis/pcb_analysis_plot.v": {
+      "original": "fpga/main60k/src/analysis/pcb_analysis_plot.v",
+      "SHA256": "8f570cd294f672b6c570e6bd16d35d6431c898561df813f879d04477c532cdb9"
+    },
+    "fpga/music_controller/src/analysis/pcb_liss_capture.v": {
+      "original": "fpga/main60k/src/analysis/pcb_liss_capture.v",
+      "SHA256": "8a13f1ad19129553fd7881fc6bd93e10baeb4609e9cad09a2a9101f351f403ef"
+    },
+    "fpga/music_controller/src/practice/bt_live_keys.v": {
+      "original": "fpga/main60k/src/practice/bt_live_keys.v",
+      "SHA256": "81f0fc8be95276df6bd7f0120d59ee89cd8bcbf623e1f96c762c29b14ce1970b"
+    },
+    "fpga/music_controller/src/practice/bt_packet_rx.v": {
+      "original": "fpga/main60k/src/practice/bt_packet_rx.v",
+      "SHA256": "51d6c5c392420acde6ff713878f28801624910738ef9f2040e058136dd35bd96"
+    },
+    "fpga/music_controller/src/practice/bt_uart_rx.v": {
+      "original": "fpga/main60k/src/practice/bt_uart_rx.v",
+      "SHA256": "b94c194bf5fdd76010b949ceef1db63f3286fa2885ca22c474e5f742ad4ce3af"
+    },
+    "fpga/music_controller/src/practice/bt_uart_tx.v": {
+      "original": "fpga/main60k/src/practice/bt_uart_tx.v",
+      "SHA256": "a26d6fd473f067f9327b9abc23c252cbc7fce8233e836bb301d6d38c00fca11c"
+    },
+    "fpga/music_controller/src/practice/dual_exchange.v": {
+      "original": "fpga/main60k/src/practice/dual_exchange.v",
+      "SHA256": "71cc8a2e0ab8c1f9fbb801d2fdf2f681231481587a2b27649daff3643fad3c18"
+    },
+    "fpga/music_controller/src/practice/fms_boot.v": {
+      "original": "fpga/main60k/src/practice/fms_boot.v",
+      "SHA256": "e2c67a925abd09685c9f2cda8102dc13a972863cfe8587486f5db1c348dee8c2"
+    },
+    "fpga/music_controller/src/practice/fms_capacity.vh": {
+      "original": "fpga/main60k/src/practice/fms_capacity.vh",
+      "SHA256": "4c28a2c4f8fdd7e573ccd58c6d7f0fe67f9e3727a5df57063c05c7ee3596813c"
+    },
+    "fpga/music_controller/src/practice/fms_core.v": {
+      "original": "fpga/main60k/src/practice/fms_core.v",
+      "SHA256": "7adf7d9b89aab4574340944ee3e0fc8c05d1d47d13dec4a280f128318a7949cb"
+    },
+    "fpga/music_controller/src/practice/fms_demo_constants.vh": {
+      "original": "fpga/main60k/src/practice/fms_demo_constants.vh",
+      "SHA256": "3b3b30288572bedc597d6ea8e79c988a6dabeb13f15e87d991952e42aa8ba032"
+    },
+    "fpga/music_controller/src/practice/fms_demo_rom.v": {
+      "original": "fpga/main60k/src/practice/fms_demo_rom.v",
+      "SHA256": "f1ce17e593d1b2cd340e0ec9449cb0afb1d841407c873b5155aeee6d23ae7e87"
+    },
+    "fpga/music_controller/src/practice/fms_functions.vh": {
+      "original": "fpga/main60k/src/practice/fms_functions.vh",
+      "SHA256": "e686179dee1da56aaad2d417e7f3d8520bb8ea36e2780506fa6cda2cf16a80b4"
+    },
+    "fpga/music_controller/src/practice/fms_judge.v": {
+      "original": "fpga/main60k/src/practice/fms_judge.v",
+      "SHA256": "85cff19c558e299b7e1b1e6bd0f6a4d070b7b0daaed1e9de1291db622d4a5bee"
+    },
+    "fpga/music_controller/src/practice/fms_keymap.v": {
+      "original": "fpga/main60k/src/practice/fms_keymap.v",
+      "SHA256": "fae33844e71a4367307f941e7e6b9635e7aff783157ae55f23b20969eac14bcb"
+    },
+    "fpga/music_controller/src/practice/fms_map.v": {
+      "original": "fpga/main60k/src/practice/fms_map.v",
+      "SHA256": "8faa4d9e6faf0635f63dcf54acdce6fd99c3d02d003981d4cb49696fd80f6065"
+    },
+    "fpga/music_controller/src/practice/fms_note_arbiter.v": {
+      "original": "fpga/main60k/src/practice/fms_note_arbiter.v",
+      "SHA256": "da3431d218fa84cd74d892fd2f86352fac5a4c521fc979e23ef6cb6fc5e440ac"
+    },
+    "fpga/music_controller/src/practice/fms_packed_ram.v": {
+      "original": "fpga/main60k/src/practice/fms_packed_ram.v",
+      "SHA256": "9818340f614039fa96ea2590f7df3fec8bcd63b8ab07ca405880307ad9199909"
+    },
+    "fpga/music_controller/src/practice/fms_recorder.v": {
+      "original": "fpga/main60k/src/practice/fms_recorder.v",
+      "SHA256": "681abfb23e31215a5a0cb3ff75b8d15bc01e48ff8df439835ce6a310b31dfb1e"
+    },
+    "fpga/music_controller/src/practice/fms_record_fifo.v": {
+      "original": "fpga/main60k/src/practice/fms_record_fifo.v",
+      "SHA256": "b9618bef30f39b9d1d5b643036e8ce5928c53c28cc27109a4e64f5761c9222ed"
+    },
+    "fpga/music_controller/src/practice/fms_service.v": {
+      "original": "fpga/main60k/src/practice/fms_service.v",
+      "SHA256": "8b0437c4e24a842e81d937f869e5b13f4b4b7d8949a7510cc29bab7169f831d3"
+    },
+    "fpga/music_controller/src/practice/fms_store.v": {
+      "original": "fpga/main60k/src/practice/fms_store.v",
+      "SHA256": "e0bdd1fc8fc31790adeeb82fa26cbb10151bf82a98ec9050534f44b679766fca"
+    },
+    "fpga/music_controller/src/practice/fms_transport.v": {
+      "original": "fpga/main60k/src/practice/fms_transport.v",
+      "SHA256": "212cd23bc43e0a83236bb0fbab0abb5a61b8af48cbb6bc911e3c27415cc565ed"
+    },
+    "fpga/music_controller/src/practice/practice_packet_tx.v": {
+      "original": "fpga/main60k/src/practice/practice_packet_tx.v",
+      "SHA256": "01c3e67007098d1dbd3842000689f6609231d8ea35a7981d1e2103f8188b965c"
+    },
+    "fpga/music_controller/src/practice/practice_roll_renderer.v": {
+      "original": "fpga/main60k/src/practice/practice_roll_renderer.v",
+      "SHA256": "14ef656ac86d3d81cbd858fc7dcd1ff6f036a225cc57d7af71e2fde4e48d1fb2"
+    },
+    "firmware/library_gateway/include/gateway.h": {
+      "original": "firmware/library/include/gateway.h",
+      "SHA256": "a1d2d68b36ec106f15b7bc6a101db015f86f2ca83a42d73c98cbfe5711796cb7"
+    },
+    "firmware/library_gateway/include/library.h": {
+      "original": "firmware/library/include/library.h",
+      "SHA256": "7ac3d6f547c757dba51ac8091e4a6f97ca301f1109c37f00073b958484ef6ec7"
+    },
+    "firmware/library_gateway/include/loader.h": {
+      "original": "firmware/library/include/loader.h",
+      "SHA256": "66cbab4e3c4a20b1f6656c2d9d97c7e1af7409c8fc6c23e46ba84f4ea714bded"
+    },
+    "firmware/library_gateway/include/spi_nor.h": {
+      "original": "firmware/library/include/spi_nor.h",
+      "SHA256": "c9f77ff96f547721741ae294354cc981122cbd355922e9155cc125ecc98e46a0"
+    },
+    "firmware/library_gateway/include/wire.h": {
+      "original": "firmware/library/include/wire.h",
+      "SHA256": "931012c2c37c6ce8b5eea9f0167dad09cce8af3cdff1591e4f9e7fbc1136b378"
+    },
+    "firmware/library_gateway/src/fms_validate.c": {
+      "original": "firmware/library/src/fms_validate.c",
+      "SHA256": "0627f19cb8e4f86b850995ae90fdb3f9b9f906a3ccf80fae58ad58916f031585"
+    },
+    "firmware/library_gateway/src/gateway.c": {
+      "original": "firmware/library/src/gateway.c",
+      "SHA256": "6d790255b66a3e2c6ba14a324f037daf370c7693e7c1c4df88dbf0847010cc59"
+    },
+    "firmware/library_gateway/src/library.c": {
+      "original": "firmware/library/src/library.c",
+      "SHA256": "c1d8899964ff922e650678c71f9c1a87f13310dad2104be9aa29f681fa7c35ee"
+    },
+    "firmware/library_gateway/src/loader.c": {
+      "original": "firmware/library/src/loader.c",
+      "SHA256": "6a2fa11764f7e8f1f898727bd75a48cb79d1897631f5b52571113e562a920add"
+    },
+    "firmware/library_gateway/src/spi_nor.c": {
+      "original": "firmware/library/src/spi_nor.c",
+      "SHA256": "97e1efaf11d4e52977fd70480f214ff5003d1cbb693f60cac8b88b47317ea969"
+    },
+    "firmware/library_gateway/src/wire.c": {
+      "original": "firmware/library/src/wire.c",
+      "SHA256": "d4c9397e1ae2e8bfd155ac89090ae5516d9179c98c5a105704357e9baa2aa703"
+    },
+    "firmware/library_gateway/vendor/littlefs/lfs.c": {
+      "original": "firmware/library/vendor/littlefs/lfs.c",
+      "SHA256": "a36d6a095785ddea9571d541d68d3e4ef01d5b255a99d17d3f07fb6ea60ea132"
+    },
+    "firmware/library_gateway/vendor/littlefs/lfs.h": {
+      "original": "firmware/library/vendor/littlefs/lfs.h",
+      "SHA256": "b1befd7288d08815accc8f9af744c55686c0b9e3ac0061c32ceee38a1b3eb96d"
+    },
+    "firmware/library_gateway/vendor/littlefs/lfs_util.c": {
+      "original": "firmware/library/vendor/littlefs/lfs_util.c",
+      "SHA256": "f2fbde533670560434bd9f5a547174cc7c5a4670a02c47b4bd85180dced8b2ec"
+    },
+    "firmware/library_gateway/vendor/littlefs/lfs_util.h": {
+      "original": "firmware/library/vendor/littlefs/lfs_util.h",
+      "SHA256": "548d46aa524dc7449e16739286c1a422a52f9de727ff0be0c2ffc5593f5ca981"
+    },
+    "firmware/library_gateway/board/weact_f411/f411.ld": {
+      "original": "firmware/library/board/weact_f411/f411.ld",
+      "SHA256": "5ff98024463346df4f283fbe1bd8f16d463b0c3ae8942cef5b9bc10b8642bdb5"
+    },
+    "firmware/library_gateway/board/weact_f411/main.c": {
+      "original": "firmware/library/board/weact_f411/main.c",
+      "SHA256": "7de2470c06787c75a97dbd4f342fcd4f4856e7114bc2e3140cf25d985580c3a1"
+    },
+    "firmware/library_gateway/board/weact_f411/startup_gnu.c": {
+      "original": "firmware/library/board/weact_f411/startup_gnu.c",
+      "SHA256": "2ad21231a3d837b7b1214a1b339c16ec210ffa44c7e470babcd01d4491d2fd1d"
+    },
+    "firmware/velocity_keyboard/mcu/capture.c": {
+      "original": "firmware/ddswitch/mcu/capture.c",
+      "SHA256": "bfb97c0a059c408383a0b7127e9079be4e11a62e7742207be86504a1faf566cf"
+    },
+    "firmware/velocity_keyboard/mcu/capture.h": {
+      "original": "firmware/ddswitch/mcu/capture.h",
+      "SHA256": "35b9eef9fbaaf5871a141ccfc6f3d39c179542118da3660558ae5d0f13488d6c"
+    },
+    "firmware/velocity_keyboard/mcu/main.c": {
+      "original": "firmware/ddswitch/mcu/main.c",
+      "SHA256": "cf07de01972bce7d0e08c25f647413d98110d281c91beeb9f14265647f995535"
+    },
+    "firmware/velocity_keyboard/mcu/startup.S": {
+      "original": "firmware/ddswitch/mcu/startup.S",
+      "SHA256": "4e3ce21740b5f5ff951ee8b38edb8f3dbedd17bab6ec39a6bb1b62243d482ef3"
+    },
+    "firmware/velocity_keyboard/mcu/stm32f103c8.ld": {
+      "original": "firmware/ddswitch/mcu/stm32f103c8.ld",
+      "SHA256": "d383f230d6d1518502cd4d48801ef77c1f74960ddc91ec7c4e638aa596dc933a"
+    },
+    "bin/android/qinjian.apk": {
+      "original": "bin/Android/qinjian-0.21-library-game.apk",
+      "SHA256": "7a48a535e797da4ad43ceca31bae6393ed530d0f2ab2d9aca533494aef761658"
+    },
+    "bin/velocity_keyboard/velocity_keyboard.bin": {
+      "original": "bin/STM32F103/ddswitch_capture.bin",
+      "SHA256": "f9d8d8d6782ef4bd77c028b10d15e279aa00a58f211b93328e1699e85cf731cb"
+    },
+    "bin/velocity_keyboard/velocity_keyboard.elf": {
+      "original": "bin/STM32F103/ddswitch_capture.elf",
+      "SHA256": "6967b3d7861e8db76e3b85aa06554b8c4ed74f3928befb01817ee8435558a0f2",
+      "debug_metadata_removed": true,
+      "loadable_image_preserved": true
+    },
+    "bin/velocity_keyboard/velocity_keyboard.hex": {
+      "original": "bin/STM32F103/ddswitch_capture.hex",
+      "SHA256": "15ba1a50befe4fa02d45f5dc4d3fc33f511a54a75f38f89b1d8d2cc43d2ab7f1"
+    },
+    "bin/library_gateway/library_gateway.elf": {
+      "original": "bin/STM32F411/STM32_library.elf",
+      "SHA256": "1f4f8fc23f27815ebf7aff3b2dbc6627847d7e880b59937aa963e7bfb6921ffd"
+    },
+    "bin/library_gateway/library_gateway.hex": {
+      "original": "bin/STM32F411/STM32_library.hex",
+      "SHA256": "45c88ccfed55b0de357010afdf1dba36ab7605007956fb40ed03a250eeb258f1"
+    },
+    "bin/music_controller/music_controller.fs": {
+      "original": "bin/TangMega60K/control_ui_v24_R26.fs",
+      "SHA256": "0a3341e86d1de4de61ca85c1828d163d0f13c9de9edd46304ca1a855d2aa52e5"
+    }
+  },
+  "vision_supplement_commit": "f8d2b28a4e8da03475b04b835ae3da30bc141339",
+  "vision_FS_SHA256": "22aea4a484a47d7c49a0cc1da64e138fd41476b4a76c1d0904cb0dab54c61806",
+  "original_runtime_bytes_preserved": true,
+  "qualification_scope": "Existing compiled programs; the velocity-keyboard ELF has debug metadata removed, with loaded sections and BIN/HEX content preserved. No new FPGA or MCU compilation.",
+  "packaging_wrappers": {
+    "firmware/velocity_keyboard/mcu/keil/image_container.c": {
+      "original": "firmware/ddswitch/mcu/keil/image_container.c",
+      "SHA256": "de86f849812ee1ac550bf74f68dc6a52d316a8a1dfb31155c9c1ea90ea607665",
+      "original_SHA256": "575982e27b0e4910e787c5847dd1698eaf668cc4197a316e6b685dd6267eee8d",
+      "change": "Embedded binary path only; original Flash image bytes unchanged"
+    }
+  }
+}
